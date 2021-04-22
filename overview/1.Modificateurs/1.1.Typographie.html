@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Les modificateurs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <br><br>
+    <h1 class="title is-1 has-text-centered">Les Modificateurs</h1>
+    <br><br>
+
+    <div class="columns is-mobile is-multiline is-centered">
+      <div class="column is-narrow">
+        <a class="button is-primary is-medium" href="1.1.Typographie.html">Typographie</a>
+      </div>
+      <div class="column is-narrow">
+        <a class="button is-primary is-medium" href="1.2.Couleur.html">Couleur</a>
+      </div>
+      <div class="column is-narrow">
+        <a class="button is-primary is-medium" href="1.3.Aides.html">Aides</a>
+      </div>
+      <div class="column is-narrow">
+        <a class="button is-primary is-medium" href="1.4.DisplayResponsives.html">Display Responsives</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Début de la leçon -->
+  <div class="columns is-mobile is-centered">
+    <div class="column is-two-thirds">
+      <h4 class="title is-4">La Typographie :</h4>
+      <br>
+      <!-- Les Titres -->
+      <h4 class="title is-4">Les Titres :</h4>
+
+      <h1 class="title is-1">Titre 1</h1>
+      <h2 class="title is-2">Titre 2</h2>
+      <h3 class="title is-3">Titre 3</h3>
+      <h4 class="title is-4">Titre 4</h4>
+      <h5 class="title is-5">Titre 5</h5>
+      <h6 class="title is-6">Titre 6</h6>
+
+      <!-- Les Sous-Titres -->
+      <br>
+      <h4 class="title is-4">Les sous-titres :</h4>
+      <h2 class="subtitle">Un sous-titre</h2>
+
+      <br>
+      <!-- Utilisés ensemble ils se rapprochent -->
+      <!-- On peut annuler cet effet avec is-spaced sur le titre -->
+      <p class="title is-spaced">Titre avec espace</p>
+      <p class="subtitle">sous-titre</p>
+
+      <br>
+      <!-- Changer la taille des textes -->
+      <h4 class="title is-4">Taille de texte : </h4>
+      <!-- Taille 1 = 3rem / 1rem = 16px-->
+      <!-- Taille 2 = 2.5rem -->
+      <!-- Taille 3 = 2rem -->
+      <!-- Taille 4 = 1.5rem -->
+      <!-- Taille 5 = 1.25rem -->
+      <!-- Taille 6 = 1rem -->
+      <!-- Taille 7 = 0.75rem -->
+      <p class="is-size-1">Hello</p>
+      <p class="is-size-3">Hello</p>
+      <p class="is-size-5">Hello</p>
+      <p class="is-size-7">Hello</p>
+
+
+      <br><br>
+      <!-- Changer la taille de manière responsive -->
+      <p class="is-size-1-mobile">Taille changée pour mobile (jusqu'à 768px)</p>
+      <p class="is-size-1-tablet">Taille changée à partir de 769px</p>
+      <p class="is-size-1-touch">Taille changée jusqu'à 1023px</p>
+      <p class="is-size-1-desktop">Taille changée à partie de 1024px</p>
+      <p class="is-size-1-widescreen">Taille changée à partir de 1216px</p>
+      <p class="is-size-1-fullhd">Taille changée à partir de 1408px</p>
+
+      <br><br>
+      <!-- Changer la couleur du texte -->
+      <p class="has-text-danger">Voici un peu de texte ...</p>
+      <p class="has-text-warning">Voici un peu de texte ...</p>
+      <p class="has-text-primary">Voici un peu de texte ...</p>
+      <p class="has-text-success">Voici un peu de texte ...</p>
+      <p class="has-text-grey-darker">Voici un peu de texte ...</p>
+
+
+      <br><br>
+      <!-- Les Alignements de texte -->
+      <p class="has-text-centered">Encore du texte !</p>
+      <p class="has-text-left">Encore du texte !</p>
+      <p class="has-text-right">Encore du texte !</p>
+      <br>
+      <p class="has-text-justified">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam impedit repellat non
+        similique quaerat
+        quasi tenetur eaque, nostrum, nisi, est iste? Tempore dolorum eius magni. Possimus laboriosam autem ipsa
+        voluptatibus ad deserunt, dolores similique harum libero obcaecati nobis corrupti distinctio quos consectetur
+        magni. Fugit eveniet velit, assumenda sed corrupti iste?</p>
+
+      <br><br>
+      <!-- Alignement responsive -->
+      <p class="has-text-right-mobile">Je suis aligné à droite jusqu'à 768px</p>
+      <p class="has-text-right-desktop-only">Je suis aligné à droite seulement de 1024px à 1215px.</p>
+      <p class="has-text-right-widescreen-only">Je suis aligné à droite seulement de 1216px à 1407px.</p>
+
+
+      <br><br>
+      <!-- Transformation de texte -->
+      <p class="is-capitalized">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+      <p class="is-lowercase">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+      <p class="is-uppercase">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+      <p class="is-italic">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+      <br><br>
+      <!-- Gras du texte -->
+      <p class="has-text-weight-light">Hello world</p>
+      <p class="has-text-weight-normal">Hello world</p>
+      <p class="has-text-weight-medium">Hello world</p>
+      <p class="has-text-weight-semibold">Hello world</p>
+      <p class="has-text-weight-bold">Hello world</p>
+
+
+      <br><br>
+      <!-- Polices de caractères -->
+      <p class="is-family-sans-serif">Lorem ipsum dolor sit amet.</p>
+      <p class="is-family-monospace">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+
+
+
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+</body>
+
+</html>

@@ -12,6 +12,28 @@ Bulma is a free, open source framework that provides ready-to-use frontend compo
     <img src="_readme-img/logo-bulma.jpg">
 </h1>
 
+## Overview
+
+### 1.Modifiers
+
+Most Bulma elements have alternative styles. To apply them, you only need to append one of the modifier classes. They all start with is- or has-.
+
+- 1.1 Typography
+- 1.2 Colours
+- 1.3 Helpers
+- 1.4 Display Responsive
+
+### 2.Grids
+
+### 3.Displaying
+
+### 4.Forms
+
+### 5.Elements
+
+### 6.Components
+
 ## Useful links
 
 - [Bulma: the modernCSS framework thatjust works.](https://bulma.io/)
+- [Ziratsu/Bac_a_Sable_depart](https://github.com/Ziratsu/Bac_a_Sable_depart)
