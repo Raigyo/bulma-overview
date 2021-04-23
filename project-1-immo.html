@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulma Project Immo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="colums is-centered">
+    <div class="column is-three-quarters">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="#0" class="navbar-item">
+            <img src="src/img/project-1/pav.png" alt="logo" class="image">
+          </a>
+          <div class="navbar-burger burger" id="btnNav" data-target="menuContent">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="menuContent" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#0" class="navbar-item">Accueil</a>
+            <a href="#0" class="navbar-item">Recherche</a>
+            <a href="#0" class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Title and search -->
+  <div class="container">
+    <div class="column is-centered is-multiline">
+      <div class="column is-three-quarter">
+        <!-- Title -->
+        <h2 class="title is-3 has-text-centered">Liste des appartements disponibles</h2>
+      </div>
+    </div>
+    <!-- Input and button -->
+    <div class="column is-12 is-centered">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-narrow is-7-mobile">
+          <div class="field">
+            <div class="control has-icons-left has-icons-right">
+              <input type="text" placeholder="Search" class="input">
+              <span class="icon is-small is-left">
+                <i class="fas fa-search"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="column is-narrow">
+          <div class="button has-background-danger has-text-light">Search</div>
+        </div>
+      </div>
+      <!-- Txt below input -->
+      <div class="column is-12">
+        <p class="has-text-centered">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, eligendi!</p>
+      </div>
+    </div>
+  </div>
+  <!-- Search result -->
+  <div class="columns is-multiline is-centered is-mobile">
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="column is-8-mobile is-4-tablet is-4-desktop">
+      <img src="src/img/project-1/aptParis.jpg" alt="appartment picture">
+      <p class="is-size-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer py-1">
+    <div class="content has-text-centered">
+      <p>
+        <strong>All rights reserved</strong>
+      </p>
+    </div>
+  </footer>
+  <script>
+    let btn = document.querySelector("#btnNav");
+    let content = document.querySelector("#menuContent");
+
+    btn.addEventListener("click", () => {
+      content.classList.toggle("is-active")
+    })
+  </script>
+</body>
+
+</html>

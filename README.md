@@ -2,7 +2,7 @@
 
 _April 2021_
 
-> 🔨 From Udemy [Maîtrisez le Framework Bulma - Enzo Ustariz](https://www.udemy.com/course/maitrisez-le-framework-bulma).
+> 🔨 Overview and two exemples: Immo Website and Portfolio mockups. From Udemy [Maîtrisez le Framework Bulma - Enzo Ustariz](https://www.udemy.com/course/maitrisez-le-framework-bulma).
 
 ---
 
@@ -11,6 +11,12 @@ Bulma is a free, open source framework that provides ready-to-use frontend compo
 <h1 align="center">
     <img src="_readme-img/logo-bulma.jpg">
 </h1>
+
+## Demo on Github pages
+
+- [Overview](https://raigyo.github.io/bulma-overview/overview/1.Modificateurs/1.1.Typographie.html)
+- [Site Immo](#)
+- [Portfolio](#)
 
 ## Overview
 
@@ -125,3 +131,6 @@ List of all variables that can be customized: [https://bulma.io/documentation/cu
 - [Bulma: the modernCSS framework thatjust works.](https://bulma.io/)
 - [Bulma: Customize](https://bulma.io/documentation/customize/)
 - [Ziratsu/Bac_a_Sable_depart](https://github.com/Ziratsu/Bac_a_Sable_depart)
+- [Ziratsu/Projet1Bulma](https://github.com/Ziratsu/Projet1Bulma)
+- [Ziratsu/Projet2Bulma](https://github.com/Ziratsu/Projet2Bulma)
+- [How to Build Company Website With Bulma CSS](https://www.blog.duomly.com/how-to-build-company-website-with-bulma-css/)
