@@ -45,7 +45,18 @@ Most Bulma elements have alternative styles. To apply them, you only need to app
 
 ### 5.Elements
 
+- 5.1 Box and buttons
+- 5.2 Content and icons
+- 5.3 Images, noyifications and tags
+- 5.4 Progress bars and tables
+
 ### 6.Components
+
+- 6.1 Crumbtrail and cards
+- 6.2 Scrolling menu
+- 6.3 Message and modals
+- 6.4 Navigation and pagination
+- 6.5 Tabs
 
 ## Useful links
 
