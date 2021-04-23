@@ -1,140 +1,156 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Composants</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Composants</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
+
 <body>
-    <div class="container">
+  <div class="container">
 
-            <br><br>
-            <h1 class="title is-1 has-text-centered">Composants</h1>
-            <br><br>
-    
-            <div class="columns is-mobile is-multiline is-centered">
-                    <div class="column is-narrow">
-                        <a href="1.1.FilAriane&Carte.html" class="button is-danger is-medium">FilAriane&Carte</a>
-                    </div>
-                    <div class="column is-narrow">
-                        <a href="1.2.Deroulant&Menu.html" class="button is-danger is-medium">Deroulant&Menu</a>
-                    </div>
-                    <div class="column is-narrow">
-                        <a href="1.3.Message&Modale.html" class="button is-danger is-medium">Message&Modale</a>
-                    </div>
-                    <div class="column is-narrow">
-                        <a href="1.4.Nav&Pagination.html" class="button is-danger is-medium">Nav&Pagination</a>
-                    </div>
-                    <div class="column is-narrow">
-                        <a href="1.5.Onglets.html" class="button is-danger is-medium">Onglets</a>
-                </div>
-            </div>
-        </div>
-    <hr>
+    <br><br>
+    <h1 class="title is-1 has-text-centered">Composants</h1>
+    <nav class="breadcrumb is-large is-centered has-bullet-separator" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="../1.Modificateurs/1.1.Typographie.html">Modificateurs</a></li>
+        <li><a href="../2.Grille/1.1.Base&Taille.html">Grille</a></li>
+        <li><a href="../3.Disposition/1.1.Conteneur&Niveaux.html">Disposition</a></li>
+        <li><a href="../4.Formulaire/1.1.Inputs&Textarea.html">Formulaire</a></li>
+        <li><a href="../5.Elements/1.1.Box&Bouton.html">Eléments</a></li>
+        <li class="is-active"><a href="#0">Composants</a></li>
+      </ul>
+    </nav>
+    <br><br>
+
+    <div class="columns is-mobile is-multiline is-centered">
+      <div class="column is-narrow">
+        <a href="1.1.FilAriane&Carte.html" class="button is-danger is-medium">FilAriane&Carte</a>
+      </div>
+      <div class="column is-narrow">
+        <a href="1.2.Deroulant&Menu.html" class="button is-danger is-medium is-outlined">Deroulant&Menu</a>
+      </div>
+      <div class="column is-narrow">
+        <a href="1.3.Message&Modale.html" class="button is-danger is-medium">Message&Modale</a>
+      </div>
+      <div class="column is-narrow">
+        <a href="1.4.Nav&Pagination.html" class="button is-danger is-medium">Nav&Pagination</a>
+      </div>
+      <div class="column is-narrow">
+        <a href="1.5.Onglets.html" class="button is-danger is-medium">Onglets</a>
+      </div>
+    </div>
+  </div>
+  <hr>
 
 
 
 
 
 
-<!-- Début de la leçon -->
-<br><br>
-<div class="columns  is-centered is-mobile">
-<div class="column is-two-thirds">
-<br><br>
-<!-- 
+  <!-- Début de la leçon -->
+  <br><br>
+  <div class="columns  is-centered is-mobile">
+    <div class="column is-two-thirds">
+      <br><br>
+      <!-- 
   is hoverable
   is-active
 
   is-right : aligné à droite
   is-up : se déroule vers le haut
  -->
-<h4 class="title is-4">Dropdown:</h4>
+      <h4 class="title is-4">Dropdown:</h4>
 
-<div class="" id="drop">
-    <div class="">
-      <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-        <span>Dropdown button</span>
-        <span class="icon is-small">
-          <i class="fas fa-angle-down" aria-hidden="true"></i>
-        </span>
-      </button>
-    </div>
-    <div class="" id="dropdown-menu" role="menu">
-      <div class="">
-        <a href="#" class="">
-          Dropdown item
-        </a>
-        <a class="">
-          Other dropdown item
-        </a>
-        <a href="#" class=" is-active">
-          Active dropdown item
-        </a>
-        <a href="#" class="">
-          Other dropdown item
-        </a>
-        <hr class="dropdown-divider">
-        <a href="#" class="">
-          With a divider
-        </a>
+      <div class="dropdown" id="drop">
+        <div class="dropdown-trigger">
+          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+            <span>Dropdown button</span>
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+          <div class="dropdown-content">
+            <a href="#" class="dropdown-item">
+              Dropdown item
+            </a>
+            <a class="dropdown-item">
+              Other dropdown item
+            </a>
+            <a href="#" class="dropdown-item is-active">
+              Active dropdown item
+            </a>
+            <a href="#" class="dropdown-item">
+              Other dropdown item
+            </a>
+            <hr class="dropdown-divider">
+            <a href="#" class="">
+              With a divider
+            </a>
+          </div>
+        </div>
       </div>
+
+
+      <br><br><br><br>
+      <h4 class="title is-4">Menu:</h4>
+      <br>
+      <aside class="menu">
+        <p class="menu-label">
+          General
+        </p>
+        <ul class="menu-list">
+          <li><a>Dashboard</a></li>
+          <li><a>Customers</a></li>
+        </ul>
+        <p class="menu-label">
+          Administration
+        </p>
+        <ul class="menu-list">
+          <li><a>Team Settings</a></li>
+          <li>
+            <a class="is-active">Manage Your Team</a>
+            <ul>
+              <li><a>Members</a></li>
+              <li><a>Plugins</a></li>
+              <li><a>Add a member</a></li>
+            </ul>
+          </li>
+          <li><a>Invitations</a></li>
+          <li><a>Cloud Storage Environment Settings</a></li>
+          <li><a>Authentication</a></li>
+        </ul>
+        <p class="menu-label">
+          Transactions
+        </p>
+        <ul class="menu-list">
+          <li><a>Payments</a></li>
+          <li><a>Transfers</a></li>
+          <li><a>Balance</a></li>
+        </ul>
+      </aside>
+
+
+
     </div>
   </div>
 
-  
-  <br><br><br><br>
-  <h4 class="title is-4">Menu:</h4>
-  <br>
-  <aside class="">
-      <p class="">
-        General
-      </p>
-      <ul class="">
-        <li><a>Dashboard</a></li>
-        <li><a>Customers</a></li>
-      </ul>
-      <p class="">
-        Administration
-      </p>
-      <ul class="">
-        <li><a>Team Settings</a></li>
-        <li>
-          <a class="">Manage Your Team</a>
-          <ul>
-            <li><a>Members</a></li>
-            <li><a>Plugins</a></li>
-            <li><a>Add a member</a></li>
-          </ul>
-        </li>
-        <li><a>Invitations</a></li>
-        <li><a>Cloud Storage Environment Settings</a></li>
-        <li><a>Authentication</a></li>
-      </ul>
-      <p class="">
-        Transactions
-      </p>
-      <ul class="">
-        <li><a>Payments</a></li>
-        <li><a>Transfers</a></li>
-        <li><a>Balance</a></li>
-      </ul>
-    </aside>  
-
-
-
-</div>
-</div>
-
-<script>
-
-</script>
-<br><br><br><br><br><br>
-<br><br><br><br><br><br>
-<br><br><br><br><br><br>
-<br><br><br><br><br><br>
+  <script>
+    let drop = document.querySelector("#drop");
+    drop.addEventListener("click", () => {
+      drop.classList.toggle("is-active")
+    })
+  </script>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
 </body>
+
 </html>
