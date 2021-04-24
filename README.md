@@ -18,6 +18,10 @@ Bulma is a free, open source framework that provides ready-to-use frontend compo
 - [Site Immo](https://raigyo.github.io/bulma-overview/project-1-immo.html)
 - [Portfolio](https://raigyo.github.io/bulma-overview/project-2-portfolio.html)
 
+<h1 align="center">
+    <img src="_readme-img/capture-project2.png">
+</h1>
+
 ## Overview
 
 ### 1.Modifiers
